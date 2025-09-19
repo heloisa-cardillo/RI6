@@ -1,3 +1,3 @@
 export default abstract class Calculo {
-    public abstract calcular(numero1: number, numero2: number): number;
+    public abstract calcular(...args: number[]): number | number[] | string;
 }
